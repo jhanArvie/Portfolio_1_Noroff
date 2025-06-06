@@ -1,8 +1,6 @@
 # Portfolio 1 AUG24FT
 
-
 ![Portfolio](https://github.com/user-attachments/assets/c9685d63-ff3e-4499-a28d-1f7069ccfc74)
-
 
 ## Description
 
@@ -23,6 +21,7 @@ Each project within this portfolio highlights different aspects of my technical 
 
 This portfolio project is built with the following technologies:
 
+- Figma
 - HTML5
 - CSS3
 - JavaScript (ES6+)
@@ -49,8 +48,6 @@ npm install
 
 ### Running
 
-Here is where you detail how to run the app. It typically involves the commands you'd need to run to start the project e.g.
-
 To run the app, run the following commands:
 
 ```bash
@@ -59,15 +56,4 @@ npm run start
 
 ## Contact
 
-This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
-
-
 [My LinkedIn page](https://www.linkedin.com/in/jhan-arvie-boniel/)
-
-## License
-
-You can link to your license file here if you're using one, or mention what license the codebase falls under. If you're unsure then you can simply delete this section.
-
-## Acknowledgments
-
-This is where you can add any acknowledgements if you'd like, such as to people who have helped you or any code snippets you'd like to mention. You can delete this section if you don't have any acknowledgements to make.
