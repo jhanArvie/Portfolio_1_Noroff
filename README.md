@@ -2,8 +2,6 @@
 
 ![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
 
-A simple overview of the use/purpose of the project.
-
 ## Description
 
 This portfolio project showcases my web development skills and expertise acquired during my studies at Noroff. It features a collection of responsive, accessible, and interactive web applications built using modern front-end technologies and best practices.
