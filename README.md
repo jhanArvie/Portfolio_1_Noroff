@@ -1,10 +1,8 @@
 # Portfolio 1 AUG24FT
 
-<<<<<<< HEAD
-![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
-=======
+
 ![Portfolio](https://github.com/user-attachments/assets/c9685d63-ff3e-4499-a28d-1f7069ccfc74)
->>>>>>> e98e9dcd6b035836a787667d741d2a26b953c02f
+
 
 ## Description
 
