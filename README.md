@@ -4,6 +4,8 @@
 
 ## Description
 
+https://jhanarvie.github.io/Portfolio_1_Noroff/
+
 This portfolio project showcases my web development skills and expertise acquired during my studies at Noroff. It features a collection of responsive, accessible, and interactive web applications built using modern front-end technologies and best practices.
 
 The project demonstrates my proficiency in:
