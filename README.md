@@ -2,24 +2,30 @@
 
 ![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
 
-A simple overview of the use/purpose of the project.
-
 ## Description
 
-Add a more detailed description of what your project entails and set out to do.
+This portfolio project showcases my web development skills and expertise acquired during my studies at Noroff. It features a collection of responsive, accessible, and interactive web applications built using modern front-end technologies and best practices.
 
-You can add some bullet points if you'd like to:
+The project demonstrates my proficiency in:
 
-- List item 1
-- List item 2
-- List item 3
+- Creating semantic HTML structures for optimal accessibility and SEO
+- Implementing responsive designs using CSS with a mobile-first approach
+- Developing interactive user interfaces with JavaScript
+- Consuming and displaying data from REST APIs
+- Implementing form validation and user feedback mechanisms
+- Version control and project management using Git and GitHub
+
+Each project within this portfolio highlights different aspects of my technical abilities while solving real-world problems through thoughtful design and implementation.
 
 ## Built With
 
-You can list a the tech stack that you've used over here
+This portfolio project is built with the following technologies:
 
-- [React.js](https://reactjs.org/)
-- [Bootstrap](https://getbootstrap.com)
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+- [Font Awesome](https://fontawesome.com/) - Icon library
+- [GitHub Pages](https://pages.github.com/) - Hosting
 
 ## Getting Started
 
@@ -30,7 +36,7 @@ This is where you list how to get the project started. It typically just include
 1. Clone the repo:
 
 ```bash
-git clone git@github.com:NoroffFEU/portfolio-1-example.git
+git https://github.com/jhanArvie/Portfolio_1_Noroff.git
 ```
 
 2. Install the dependencies:
@@ -49,17 +55,12 @@ To run the app, run the following commands:
 npm run start
 ```
 
-## Contributing
-
-Here you can detail any information you want to provide regarding contributing to the project. For big projects you will usually have a separate `CONTRIBUTING.md` and link to it, but for smaller projects you can simply include instructions here. These instructions can simply detail the process you want a person to take, such as to make sure to open a pull request so code can be reviewed.
-
 ## Contact
 
 This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
 
-[My Twitter page](www.twitter.com)
 
-[My LinkedIn page](www.linkedin.com)
+[My LinkedIn page](https://www.linkedin.com/in/jhan-arvie-boniel/)
 
 ## License
 
