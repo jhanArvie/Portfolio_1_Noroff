@@ -1,0 +1,284 @@
+.project-one-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px auto;
+    position: relative;
+    
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: white;
+    min-height: 400px;
+    width: 100%;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+
+.project-one-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--bg-yellow-orange);
+    max-width: 340px;
+    width: 100%;
+    border-radius: 20px;
+    position: relative;
+    margin: 20px auto;
+    box-sizing: border-box;
+
+    .project-logo {
+        position: absolute;
+        top: -30px;
+        left: -30px;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        overflow: hidden;
+        box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+        padding: 8px;
+        transform: rotate(-15deg);
+        z-index: 3;
+        margin-left: 20px;
+        
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            transition: transform 0.5s ease;
+        }
+
+        &:hover img {
+            transform: rotate(360deg) scale(1.1);
+        }
+    }
+
+    .project-one-img {
+        height: 250px;
+        margin-top: 20px;
+        margin-left: 20px; 
+        margin-right: 20px;
+        border-radius: 120px 20px 100px 40px / 60px 50px 70px 80px;
+        overflow: hidden;
+        transform: rotate(-2deg);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        z-index: 2;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transform: rotate(2deg) scale(1.1);
+            transition: transform 0.3s ease;
+        }
+
+        &:hover img {
+            transform: rotate(2deg) scale(1.2);
+        }
+    }
+
+    h2 {
+        font-size: var(--fs-50);
+        text-align: center;
+        font-family: var(--font-family-Pacifico);
+        color: #1C3540;
+        margin: 20px auto;
+        width: 100%;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        hyphens: auto;
+    }
+    
+    p {
+        font-size: var(--fs-14);
+        text-align: center;
+        margin: 20px;
+        max-width: 300px;
+    }
+    
+
+    .project-one-links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        padding: 20px;
+        
+        img {
+            width: 30px;
+            height: 30px;   
+        }
+        a {
+            padding: 10px;
+            color: var(--text-dark);
+            transition: all 0.3s ease;
+           
+            &:hover {
+                color: var(--bg-blue);
+                transform: translateY(-3px);
+            }
+        }
+    }
+
+    .content-wrapper {
+        position: relative;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .tech-icons {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        z-index: 0;
+    }
+
+    .tech-icon {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        object-fit: contain;
+        opacity: 0.15;
+        transition: all 0.5s ease;
+        filter: grayscale(20%);
+    }
+
+    .css-icon {
+        top: 15%;
+        left: 5%;
+        transform: rotate(-15deg) scale(1.1);
+    }
+
+    .html-icon {
+        top: 35%;
+        right: 5%;
+        transform: rotate(20deg) scale(1);
+    }
+
+    .js-icon {
+        bottom: 25%;
+        left: 10%;
+        transform: rotate(-10deg) scale(1.2);
+    }
+
+    .api-icon {
+        bottom: 15%;
+        right: 10%;
+        transform: rotate(12deg) scale(0.9);
+    }
+
+    .noroff-icon {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(-5deg) scale(1.4);
+        opacity: 0.12;
+    }
+
+    .content {
+        position: relative;
+        z-index: 1;
+        
+        background: linear-gradient(
+            to bottom,
+            transparent 0%,
+            var(--bg-yellow-orange) 20%,
+            var(--bg-yellow-orange) 100%
+        );
+        border-radius: 15px;
+    }
+
+    .content::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+        background: 
+            url('../assets/API.png') -30px -20px / 150px no-repeat,
+            url('../assets/CSS.PNG') right -10px top 20px / 120px no-repeat,
+            url('../assets/HTML.png') left 40px bottom -15px / 140px no-repeat,
+            url('../assets/js.webp') right -15px bottom -10px / 130px no-repeat,
+            url('../assets/noroff.png') center / 200px no-repeat;
+        opacity: 0.15;
+        transform: rotate(-5deg);
+    }
+
+    .content h2, .content p {
+        position: relative;
+        z-index: 2;
+    }
+}
+
+.project-features {
+    text-align: left;
+    list-style-type: disc;
+    display: block;
+    padding-left: 20px;
+    max-width: 600px;
+    margin: 0 20px;
+}
+
+.project-features li {
+    margin-bottom: 8px;
+    position: relative;
+    z-index: 2;
+}
+
+@media screen and (min-width: 1010px){
+    .project-one-container {
+        padding: 2rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .project-one-wrapper {
+        flex-direction: row;
+        width: 1000px;
+        max-width: 100%;
+        gap: 2rem;
+        align-items: center;
+        padding: 1rem;
+        
+
+        .project-logo {
+            width: 150px;
+            height: 150px;
+            top: -40px;
+            left: -40px;
+            padding: 12px;
+            transform: rotate(-15deg) scale(1.2);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+
+            &:hover img {
+                transform: rotate(360deg) scale(1.2);
+            }
+        }
+
+        h2 {
+            font-size: var(--fs-70);
+            text-align: left;
+            font-family: var(--font-family-Pacifico);
+            margin-bottom: 1rem;
+        }
+        
+        p {
+            font-size: var(--fs-16);
+            text-align: left;
+            margin-bottom: 1.5rem;
+            max-width: 600px;
+            line-height: 1.6;
+        }
+
+        .project-one-img {
+            flex: 1;
+            margin: 0;
+        }
+
+        > div:last-child {
+            flex: 2;
+        }
+    }
+}
