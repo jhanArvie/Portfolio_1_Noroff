@@ -1,8 +1,9 @@
-# Your project title
+# Portfolio 1 AUG24FT
 
-![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
+![Portfolio](https://github.com/user-attachments/assets/16c5ba29-a2a8-4984-acbd-fd614db4a8e4)
 
 A simple overview of the use/purpose of the project.
+
 
 ## Description
 
